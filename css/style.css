@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
+section{
+    height: 100vh;
+}
+
+#intro-section{
+    background:url(/images/background/h_img.jpg) center center;
+    background-size: cover;
+    color: white;
+}
+
+#services{
+    background:url(/images/background/s_image.jpg);
+    background-size: cover;
+}
