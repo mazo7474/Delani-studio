@@ -74,6 +74,10 @@ body{
     justify-content: space-around;
 }
 
+.hide{
+    display: none;
+}
+
 .Hover {
     opacity:0;
     background-color: rgba(255, 255, 255, 0.623);
@@ -88,9 +92,62 @@ body{
     max-width: 280px;
     padding:2px;
     align-items: center;
-    
+
 }
 .row{
     padding:2%;
 }
 
+.contact{
+    background-image: url(/images/background/c_image\ \(1\).jpg);
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__wrapper > h3 {
+    color: white;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.cantact__form{
+    margin-bottom: 20px;
+}
+
+.cantact__form > input {
+    width: 350px;
+    height: 30px;
+}
+
+.footer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__images{
+    margin-bottom: 20px;
+}
+
+.footer__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__text > p {
+    font-size: 14px;
+}
