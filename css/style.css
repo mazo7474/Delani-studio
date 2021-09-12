@@ -1,8 +1,4 @@
-body{
-    text-align: center;
-    justify-content: center;
-    align-self: center;
-}
+
 section{
     height: 100vh;
 }
@@ -11,9 +7,17 @@ section{
     background:url(/images/background/h_img.jpg) center center;
     background-size: cover;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #services{
-    background:url(/images/background/s_image.jpg);
+    background:url(/images/background/s_image.jpg) center center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
+
