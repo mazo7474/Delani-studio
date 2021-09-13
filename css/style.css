@@ -24,6 +24,7 @@ body{
 
 .services{
     background-image: url(/images/background/s_image.jpg);
+    color: aliceblue;
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -111,13 +112,10 @@ body{
     margin-bottom: 30px;
 }
 
-.cantact__form{
-    margin-bottom: 20px;
-}
 
-.cantact__form > input {
-    width: 350px;
-    height: 30px;
+
+.contact__form{
+    opacity: 0.7;
 }
 
 .footer{
