@@ -74,29 +74,20 @@ body{
     justify-content: space-around;
 }
 
-.hide{
-    display: none;
+.porfolio{
+    margin-left: 100px;
 }
 
-.Hover {
-    opacity:0;
-    background-color: rgba(255, 255, 255, 0.623);
-    position: absolute;
-    top:25%;
-    bottom:25%;
-    left:25%;
-    right:25%; 
+.futa{
+  padding-top: 20px;
+  height: 350px;
+  width: 350px;
+  padding-left: 20px;
+  display: flex;
+  padding-left: 18px;
 }
-.custom-info-on-portfolio-images {
-    height: 280px;
-    max-width: 280px;
-    padding:2px;
-    align-items: center;
 
-}
-.row{
-    padding:2%;
-}
+
 
 .contact{
     background-image: url(/images/background/c_image\ \(1\).jpg);
