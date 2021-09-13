@@ -149,3 +149,7 @@ body{
 .footer__text > p {
     font-size: 14px;
 }
+
+.hide{
+    display: none;
+}
