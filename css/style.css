@@ -3,7 +3,7 @@ body{
 }
 
 #intro-section{
-    background:url(/images/background/h_img.jpg) center center;
+    background:url('../images/background/h_img.jpg') center center;
     background-size: cover;
     color: white;
     display: flex;
@@ -23,7 +23,7 @@ body{
 }
 
 .services{
-    background-image: url(/images/background/s_image.jpg);
+    background-image: url('../images/background/s_image.jpg');
     color: aliceblue;
     height: 350px;
     display: flex;
@@ -91,7 +91,7 @@ body{
 
 
 .contact{
-    background-image: url(/images/background/c_image\ \(1\).jpg);
+    background-image: url('../images/background/c_image.jpg');
     height: 400px;
     padding: 20px;
     display: flex;
